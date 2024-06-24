@@ -1,0 +1,54 @@
+/*------------- element plus Message Box 泡泡視窗 -------------*/
+.el-message-box{
+  max-width: 32em;
+}
+.el-message-box--center .el-message-box__title{
+  flex-direction: column;
+}
+.el-message-box .el-icon{
+  width: 2em;
+  height: 2em;
+  margin: 20px 0;
+}
+.el-message-box .el-icon svg{
+  transform: scale(2);
+}
+.el-message-box__title span{
+  font-weight: bold;
+  font-size: 1.875em;
+}
+.el-message-box__message {
+  white-space: pre-line;
+}
+.el-message-box__message p{
+  font-size: 1.225em;
+}
+.el-message-box__btns{
+  padding: 5px 15px 15px;
+}
+
+/*------------- element plus ElLoading -------------*/
+.el-loading-spinner .el-loading-text{
+  color: #ffffff;
+}
+.el-loading-spinner .path{
+  stroke: #ffffff;
+}
+.GifLoading .el-loading-spinner{
+  background: url('../img/GifLoading.gif') no-repeat center;
+  background-size: 80px 80px;
+  height: 100%;
+  top: 0;
+}
+.GifLoading .el-loading-spinner .circular{
+  display: none;
+}
+.GifLoading .el-loading-spinner .el-loading-text{
+  margin-top: 400px;
+}
+@media screen and (min-width:1540px){
+  .GifLoading .el-loading-spinner .el-loading-text{
+      margin-top: 500px;
+  }
+}
+

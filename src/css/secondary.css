@@ -1,0 +1,32 @@
+/* 此 css 樣式僅適用於開發環境中進行畫面測試，勿將此 css 進行打包 */
+
+/*通用規則*/
+:root {
+  --black_ai: #272C33;
+  --red_ai: #DE1E19;
+  --gray_ai: #CCCCCC;
+  --dark_gray_ai: rgb(169, 169, 169);
+  --light_gray_ai: rgb(241, 241, 241);
+  --white_ai: #ffffff;
+}
+body{
+  font-family: "Poppins", sans-serif;
+  margin: 0;
+}
+
+/*------------- 通用 -------------*/
+a, a:hover {
+  text-decoration: none;
+}
+.mt-40{
+  margin-top: 40px;
+}
+.mt-160{
+  margin-top: 160px;
+}
+.ml-20 {
+  margin-left: 20%;
+}
+.pt-40{
+  padding-top: 40px;
+}
